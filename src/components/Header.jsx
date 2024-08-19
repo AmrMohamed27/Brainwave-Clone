@@ -28,7 +28,7 @@ function Header() {
     setIsOpen(false);
   };
   return (
-    <header className="fixed top-0 left-0 z-50 w-full border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm">
+    <header className="fixed top-0 left-0 z-[60] w-full border-b border-n-6 bg-n-8 lg:bg-n-8/90 lg:backdrop-blur-sm">
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         {/* Logo */}
         <Link to={"#hero"} className="w-[12rem] xl:mr-8">
