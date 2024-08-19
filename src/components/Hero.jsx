@@ -1,10 +1,4 @@
-import {
-  curve,
-  robot,
-  heroBackground,
-  notification1,
-  yourlogo,
-} from "../assets/index";
+import { curve, robot, heroBackground, notification1 } from "../assets/index";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -107,6 +101,7 @@ function Hero() {
             </div>
             <Gradient />
           </div>
+          {/* Hero Background */}
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
