@@ -20,7 +20,7 @@ function Hero() {
       {/* Page Container */}
       <div className="container relative" ref={parallaxRef}>
         {/* Header Text Container */}
-        <div className=" px-5 md:px-10 lg:px-15 xl:px-20 max-w-[77.5rem] mx-auto flex flex-col items-center justify-center gap-8">
+        <div className="px-5 md:px-10 lg:px-15 xl:px-20 max-w-[77.5rem] mx-auto flex flex-col items-center justify-center gap-8">
           <h1 className="h1 text-center z-50">
             Explore the Possibilities <br></br> of AI Chatting with{" "}
             <span className="relative">

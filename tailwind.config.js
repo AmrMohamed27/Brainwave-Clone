@@ -82,6 +82,13 @@ export default {
         "benefit-card-5": "url(assets/benefits/card-5.svg)",
         "benefit-card-6": "url(assets/benefits/card-6.svg)",
         "hero-background": "url(assets/hero/hero-background.jpg)",
+        "benefit-image-2": "url(assets/benefits/image-2.png)",
+      },
+      backgroundOpacity: {
+        15: "0.15",
+      },
+      boxShadow: {
+        right: "100px 10px 100px -50px rgba(0, 0, 255, 0.2)",
       },
     },
   },
