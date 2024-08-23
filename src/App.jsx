@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <Benefits />
         <Collaboration />
+        <Services />
         <Footer />
       </div>
       <ButtonGradient />

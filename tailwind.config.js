@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "380px",
+      },
       colors: {
         color: {
           1: "#AC6AFF",
