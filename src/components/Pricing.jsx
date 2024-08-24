@@ -40,7 +40,7 @@ function Pricing() {
               <li
                 key={item.id}
                 className={`border-2 border-n-3/10 rounded-3xl px-5 py-8 flex flex-col gap-4 ${
-                  index === 1 ? "scale-105" : ""
+                  index === 1 ? "lg:scale-105" : ""
                 }`}
               >
                 <div className="flex gap-4 flex-col">
