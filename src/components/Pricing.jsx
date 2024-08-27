@@ -1,11 +1,11 @@
 import { LeftLine, RightLine } from "./design/Pricing";
 import Section from "./Section";
 import { smallSphere, stars } from "../assets";
-import brackets from "./../assets/svg/Brackets";
 import { pricing } from "../constants";
 import Button from "./Button";
 import { check } from "../assets";
 import { Link } from "react-router-dom";
+import Bracketed from "./Bracketed";
 
 function Pricing() {
   return (
@@ -23,11 +23,8 @@ function Pricing() {
           <img src={stars} alt="stars" />
         </div>
         {/* Header */}
-        <div className="flex items-center justify-center lg:mt-28 text-n-3">
-          <p className="tagline uppercase flex items-center gap-4">
-            {brackets("left")} Get Started With Brainwave
-            {brackets("right")}
-          </p>
+        <div className="flex items-center justify-center lg:mt-28">
+          <Bracketed>Get Started with Brainwave</Bracketed>
         </div>
         <div className="flex items-center justify-center mt-6">
           <h2 className="h2">Pay once, use forever</h2>
