@@ -19,7 +19,7 @@ function Pricing() {
             className="z-10"
           />
         </div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60rem] h-[90rem] z-0 hidden lg:block">
+        <div className="absolute top-36 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60rem] z-0 hidden lg:block">
           <img src={stars} alt="stars" />
         </div>
         {/* Header */}
@@ -36,9 +36,7 @@ function Pricing() {
             {pricing.map((item, index) => (
               <li
                 key={item.id}
-                className={`border-2 border-n-3/10 rounded-3xl px-5 py-8 flex flex-col gap-4 ${
-                  index === 1 ? "lg:scale-105" : ""
-                }`}
+                className={`border-2 border-n-3/10 rounded-3xl px-5 py-8 flex flex-col gap-4 lg:hover:scale-105 `}
               >
                 <div className="flex gap-4 flex-col">
                   <h4
@@ -86,7 +84,7 @@ function Pricing() {
         </div>
         <div className="mt-16 flex items-center justify-center">
           <Link
-            className="font-code font-bold tracking-wider text-xs uppercase border-b"
+            className="font-code font-bold tracking-wider text-xs uppercase border-b cursor-pointer"
             to={"#pricing"}
           >
             See The Full Details
